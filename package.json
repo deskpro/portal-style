@@ -1,7 +1,14 @@
 {
   "name": "portal-style",
   "version": "0.1.0",
+  "description": "Deskpro Portal Style",
+  "private": false,
+  "homepage": "https://deskpro.github.io/portal-style",
   "dependencies": {
     "@frctl/fractal": "^1.1.7"
+  },
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build"
   }
 }
